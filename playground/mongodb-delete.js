@@ -31,7 +31,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     _id: new ObjectID('58ece45b7907b4b4f2c7c1ee')
   }).then((result) => {
     console.log(JSON.stringify(result, undefined, 2);
-  })
+  });
 
   // db.close();
 });
